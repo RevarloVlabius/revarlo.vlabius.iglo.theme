@@ -1,0 +1,35 @@
+{
+    "name": "iglo",
+    "displayName": "Iglo",
+    "description": "A Complete Theme for Vs Code.",
+    "version": "0.0.1",
+    "publisher": "RevarloVlabius",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "dark",
+        "icon",
+        "theme",
+        "iglo"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Iglo(Dark)",
+                "uiTheme": "vs-dark",
+                "path": "dark-theme.json"
+            }
+        ],
+        "iconThemes": [
+            {
+                "id": "vscode-iglo-icon-theme",
+                "label": "Iglo",
+                "path": "icon-theme.json"
+            }
+        ]
+    }
+}
